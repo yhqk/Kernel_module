@@ -5,6 +5,7 @@ Makefile~
 Module.symvers
 modules.order
 .tmp*
+*.mod.c
 
 # Object files
 *.o
