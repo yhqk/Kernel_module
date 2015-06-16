@@ -7,8 +7,12 @@
 // - You need to export symbols as functions in the first and 
 //   second module. First will have typical getters (get a and get b) 
 //   and the second will have the add and substract
-
-
+//
+// $make
+// $sudo insmod calc_module1.ko
+// $dmesg 
+// $sudo rmmod calc_module1 
+// $dmesg  
 // 
 
 #include <linux/kernel.h>
